@@ -20,7 +20,7 @@ let g:colors_name = "milk"
 "gui, cterm, term: none reverse underline bold undercurl standout inverse itallic
 
 
-hi Normal		guifg=black			guibg=#D4D3A4 "#D5D1B3 "#D4D3A4
+hi Normal		guifg=black			guibg=#D5D1B3 "#D5D1B3 "#D4D3A4
 
 hi NonText		guifg=#4C4C3D		guibg=bg
 hi comment		guifg=#336600	guibg=bg
@@ -81,8 +81,8 @@ hi Directory	guifg=blue	guibg=bg
 hi WildMenu		guifg=black	guibg=yellow
 
 hi Todo			guifg=black	guibg=darkYellow
-hi Search		guifg=black	guibg=pink   "#FFFF66
-hi IncSearch	guifg=fg		guibg=bg
+hi Search		guifg=black	guibg=yellow	gui=underline
+hi IncSearch	guifg=black	guibg=cyan	gui=underline
 hi LineNr		guifg=darkgray	guibg=#C0BCA1
 hi title		gui=bold
 
